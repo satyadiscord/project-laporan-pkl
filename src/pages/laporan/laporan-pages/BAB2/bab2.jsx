@@ -1,4 +1,4 @@
-import LogoBSS from "../../../../assets/icons/LogoBSS.jpeg";
+import logobss from "../BAB2/logobss.jpeg";
 
 export default function Bab2() {
   return (
@@ -62,7 +62,7 @@ export default function Bab2() {
           <div className="w-[240px] h-[100px] border rounded-xl mt-2 p-5">
             <img
               className="w-full h-full bg-cover object-cover bg-center"
-              src={LogoBSS}
+              src={logobss}
               alt="Logo PT. Bimasakti Sanjaya"
             />
           </div>
