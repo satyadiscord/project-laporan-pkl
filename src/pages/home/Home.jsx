@@ -1,5 +1,6 @@
 import Border from "../../components/border";
 import { listIcons } from "../../list-maping/Icons";
+import myfoto from "../home/myfoto.jpeg";
 import { useNavigate } from "react-router-dom";
 
 export default function Home() {
@@ -8,7 +9,7 @@ export default function Home() {
     <>
       <div className="w-full p-5 h-[74vh] lg:flex lg:items-center lg:justify-between lg:flex-row-reverse xl:flex xl:items-center xl:justify-between xl:flex-row-reverse">
         <div>
-          <Border images="https://images.unsplash.com/photo-1461935793258-ac2ac2c930b2?q=80&w=3387&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" />
+          <Border images={myfoto} />
         </div>
         <div>
           <h1 className="text-center mt-10 text-3xl font-bold font-[arial] sm:text-4xl lg:text-start lg:text-5xl xl:text-start xl:text-6xl tracking-widest">

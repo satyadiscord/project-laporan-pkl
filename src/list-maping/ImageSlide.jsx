@@ -1,12 +1,10 @@
 import WhiteMode from "../assets/project-image/WhiteMode.png";
 import DarkMode from "../assets/project-image/DarkMode.png";
-import Login from "../assets/project-image/Login.png";
-import Register from "../assets/project-image/Register.png";
 import DaftarKelas from "../assets/project-image/DaftarKelas.png";
 import DaftarMapel from "../assets/project-image/Mapel.png";
 import DaftarSiswa from "../assets/project-image/DaftarSiswa.png";
 
-export const ImageSlider = [
+export const imageSlider = [
   {
     title: "Project",
     description: "Project yang bernama Sistem Informasi Pembelajaran.",
@@ -16,18 +14,6 @@ export const ImageSlider = [
     title: "Tampilan Dark Mode",
     description: "Tampilan Dark Mode Project Sistem Informasi Pendidikan.",
     images: DarkMode,
-  },
-  {
-    title: "Form Login",
-    description:
-      "Tampilan Form Login yang menerima Dua/2 inputan yaitu email dan password user.",
-    images: Login,
-  },
-  {
-    title: "Form Register",
-    description:
-      "Tampilan Form Register yang menerima Empat/4 inputan yaitu  username, email, password dan konfirmasi password user.",
-    images: Register,
   },
   {
     title: "Daftar Kelas",
